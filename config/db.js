@@ -1,5 +1,3 @@
-const res = require("express/lib/response");
-
 const knex = require("knex")({
     client: "mysql",
     connection: {
