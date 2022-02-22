@@ -1,5 +1,5 @@
 const knex = require("../config/db");
-// const {genratetoken} = require("../auth/jwt")
+
 
 getAllData = (req, res) =>{
     knex.select("*").from("crud_knex")
